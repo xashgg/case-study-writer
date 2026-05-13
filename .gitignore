@@ -16,8 +16,10 @@ outputs/*
 *.tmp
 
 # Supporting documents (examples and methodology)
-supporting_documents/examples/
-supporting_documents/methodology/
+supporting_documents/examples/*
+!supporting_documents/examples/.gitkeep
+supporting_documents/methodology/*
+!supporting_documents/methodology/.gitkeep
 
 # Local IDE/user state
 .vscode/*
